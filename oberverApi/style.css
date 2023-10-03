@@ -17,8 +17,10 @@ h1 {
 }
 
 section {
+    border-bottom: 1px solid;
     height: 100vh;
 }
+
 img {
     width: 150px;
     height: 150px;
