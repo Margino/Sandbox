@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+video {
+    aspect-ratio: 16/9;
+    border: 20px solid #ffcc00;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-items: center;
+}
+
+.container__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
